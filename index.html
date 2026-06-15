@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ministère de l'Industrie - République du Sénégal</title>
+  <meta name="description" content="Site officiel du Ministère de l'Industrie du Sénégal. Développement industriel, innovation et compétitivité pour un Sénégal émergent." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ========================= HEADER ========================= -->
+  <header class="header" role="banner">
+    <div class="container header__inner">
+      <a href="#accueil" class="brand" aria-label="Accueil - Ministère de l'Industrie">
+        
+          <img src="https://industrie.gouv.sn/sites/all/themes/adie/logo.png" alt="" width="200" >
+        <div class="brand__text">
+          <span class="brand__Subtitle">Ministère de l'Industrie</span>
+          <span class="brand__Subtitle">Et De La Petite Et Moyenne Entreprise </span>
+        
+        </div>
+      </a>
+
+      <!-- CSS-only mobile menu toggle -->
+      <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-hidden="true" />
+      <label for="nav-toggle" class="nav-toggle__label" aria-label="Ouvrir le menu">
+        <span></span><span></span><span></span>
+      </label>
+      <nav class="nav" role="navigation" aria-label="Menu principal">
+        <ul class="nav__list">
+          <li><a href="#accueil" class="nav__link">Accueil</a></li>
+          <li><a href="#ministere" class="nav__link">Le Ministère</a></li>
+          <li><a href="#ministre" class="nav__link">Le Ministre</a></li>
+          <li><a href="#programmes" class="nav__link">Programmes &amp; Projets</a></li>
+          <li><a href="#secteurs" class="nav__link">Secteurs d'activités</a></li>
+          <li><a href="#actualites" class="nav__link">Actualités</a></li>
+          <li><a href="#investir" class="nav__link">Investir au Sénégal</a></li>
+          <li><a href="#contact" class="nav__link nav__link--cta">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main id="accueil">
+  
+    <!-- ========================= HERO ========================= -->
+    <section class="hero" aria-label="Section d'accueil">
+      <div class="hero__overlay"></div>
+      <div class="container hero__content">
+        <span class="hero__eyebrow">République du Sénégal</span>
+        <h1 class="hero__title">Une industrie forte pour un Sénégal émergent</h1>
+        <p class="hero__subtitle">Développement industriel, innovation et compétitivité</p>
+        <div class="hero__actions">
+          <a href="#ministere" class="btn btn--primary">Découvrir</a>
+          <a href="#programmes" class="btn btn--ghost">Nos projets</a>
+        </div>
+      </div>
+      <div class="hero__flag" aria-hidden="true">
+        <span></span><span></span><span></span>
+      </div>
+    </section>
+    <!-- ========================= PROGRAMMES ========================= -->
+    <section id="programmes" class="section section--alt">
+      <div class="container">
+        <header class="section__header">
+          <span class="section__eyebrow">Notre action</span>
+          <h2 class="section__title">Programmes &amp; Projets</h2>
+          <p class="section__lead">Des initiatives structurantes pour transformer durablement l'économie nationale.</p>
+        </header>
+
+        <div class="programs-grid">
+          <article class="program-card">
+            <div class="program-card__media" style="background-image:url('https://industrie.gouv.sn/sites/default/files/pexels-photo-157039.jpeg');"></div>
+            <div class="program-card__body">
+              <h3 class="program-card__title">Industrie durable</h3>
+              <p>Programme national pour une production sobre en carbone, circulaire et respectueuse de l'environnement.</p>
+              <a href="#" class="btn btn--outline">Consulter</a>
+            </div>
+          </article>
+          <article class="program-card">
+            <div class="program-card__media" style="background-image:url('https://industrie.gouv.sn/sites/default/files/pexels-photo-164313.jpeg');"></div>
+            <div class="program-card__body">
+              <h3 class="program-card__title">Pôle urbain de Diamniadio</h3>
+              <p>Un écosystème industriel et technologique de nouvelle génération à proximité de Dakar.</p>
+              <a href="#" class="btn btn--outline">Consulter</a>
+            </div>
+          </article>
+          <article class="program-card">
+            <div class="program-card__media" style="background-image:url('https://industrie.gouv.sn/sites/default/files/pexels-photo-459728.jpeg');"></div>
+            <div class="program-">
+              <h3 class="program-card__bodycard__title">Zones industrielles intégrées</h3>
+              <p>Aménagement de zones spécialisées pour accueillir investisseurs et industriels nationaux.</p>
+              <a href="#" class="btn btn--outline">Consulter</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================= ACTUALITÉS ========================= -->
+    <section id="actualites" class="section">
+      <div class="container">
+        <header class="section__header">
+          <span class="section__eyebrow">À la une</span>
+          <h2 class="section__title">Actualités</h2>
+          <p class="section__lead">Suivez l'activité du ministère et les avancées du secteur industriel.</p>
+        </header>
+
+        <div class="news-grid">
+          <article class="news-card">
+            <div class="news-card__media" style="background-image:url('https://industrie.gouv.sn/sites/default/files/industrie1.png');"></div>
+            <div class="news-card__body">
+              <time class="news-card__date">5 fév 2018</time>
+              <h3 class="news-card__title">Visite de son Excellence Monsieur le Président de la République</h3>
+              <p class="news-card__excerpt">Un nouveau cadre stratégique pour renforcer la transformation locale et la productivité des PME.</p>
+              <a href="#" class="link-arrow">Lire plus <span aria-hidden="true">→</span></a>
+            </div>
+          </article>
+
+          <article class="news-card">
+            <div class="news-card__media" style="background-image:url('https://actu.rts.sn/wp-content/uploads/2023/12/WhatsApp-Image-2023-12-05-at-22.57.48-1.jpeg');"></div>
+            <div class="news-card__body">
+              <time class="news-card__date">05 Décembre 2023</time>
+              <h3 class="news-card__title">Inauguration de la zone industrielle intégrée de Diamniadio</h3>
+              <p class="news-card__excerpt">Un pôle moderne au service de l'emploi des jeunes et de la souveraineté économique.</p>
+              <a href="#" class="link-arrow">Lire plus <span aria-hidden="true">→</span></a>
+            </div>
+          </article>
+
+          <article class="news-card">
+            <div class="news-card__media" style="background-image:url('https://industrie.gouv.sn/sites/default/files/industrie.png');"></div>
+            <div class="news-card__body">
+              <time class="news-card__date">3 fév 2018</time>
+              <h3 class="news-card__title">Cérémonie Officielle à LOUGA</h3>
+              <p class="news-card__excerpt">Le ministère signe un accord cadre pour structurer la chaîne de valeur agroalimentaire.</p>
+              <a href="#" class="link-arrow">Lire plus <span aria-hidden="true">→</span></a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================= MINISTRE ========================= -->
+    <section id="ministre" class="section section--alt">
+      <div class="container minister">
+        <div class="minister__photo" aria-hidden="true">
+          <div class="minister__photo-img" style="background-image:url('https://industrie.gouv.sn/sites/default/files/block_image_m/MoustaphaDiop.png');"></div>
+          <span class="minister__badge">Le Ministre</span>
+        </div>
+        <div class="minister__content">
+          <span class="section__eyebrow">Mot du Ministre</span>
+          <h2 class="minister__name">Moustapha Diop</h2>
+          <p class="minister__role">Ministre de l'Industrie et de la petite et moyenne industrie</p>
+          <blockquote class="minister__quote">
+            <p>« L'industrie est le moteur de la souveraineté économique. Notre ambition est de bâtir un tissu industriel compétitif, inclusif et durable, capable de créer des emplois pour notre jeunesse et d'accélérer l'émergence du Sénégal. »</p>
+          </blockquote>
+          <a href="#" class="btn btn--primary">Lire le message complet</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================= SECTEURS ========================= -->
+    <section id="secteurs" class="section">
+      <div class="container">
+        <header class="section__header">
+          <span class="section__eyebrow">Nos domaines</span>
+          <h2 class="section__title">Secteurs d'activités</h2>
+          <p class="section__lead">Neuf filières stratégiques au cœur de la transformation industrielle du Sénégal.</p>
+        </header>
+
+        <div class="sectors-grid">
+          <article class="sector-card">
+            <div class="sector-card__icon" aria-hidden="true">🌾</div>
+            <h3 class="sector-card__title">Agroalimentaire</h3>
+            <p>Transformation locale et valorisation des produits agricoles.</p>
+          </article>
+          <article class="sector-card">
+            <div class="sector-card__icon" aria-hidden="true">⛏️</div>
+            <h3 class="sector-card__title">Industries extractives</h3>
+            <p>Exploitation responsable des ressources minières nationales.</p>
+          </article>
+          <article class="sector-card">
+            <div class="sector-card__icon" aria-hidden="true">🧵</div>
+            <h3 class="sector-card__title">Textile &amp; Habillement</h3>
+            <p>Relance d'une filière coton-textile compétitive et créative.</p>
+          </article>
+          <article class="sector-card">
+            <div class="sector-card__icon" aria-hidden="true">📄</div>
+            <h3 class="sector-card__title">Papier &amp; Imprimerie</h3>
+            <p>Modernisation et soutien aux industries graphiques locales.</p>
+          </article>
+          <article class="sector-card">
+            <div class="sector-card__icon" aria-hidden="true">👞</div>
+            <h3 class="sector-card__title">Cuir &amp; Chaussure</h3>
+            <p>Promotion d'un savoir-faire artisanal à l'échelle industrielle.</p>
+          </article>
+          <article class="sector-card">
+            <div class="sector-card__icon" aria-hidden="true">⚙️</div>
+            <h3 class="sector-card__title">Mécanique &amp; Métallurgie</h3>
+            <p>Développement d'une industrie de transformation des métaux.</p>
+          </article>
+          <article class="sector-card">
+            <div class="sector-card__icon" aria-hidden="true">🌳</div>
+            <h3 class="sector-card__title">Bois</h3>
+            <p>Filière bois durable et transformation à forte valeur ajoutée.</p>
+          </article>
+          <article class="sector-card">
+            <div class="sector-card__icon" aria-hidden="true">🏗️</div>
+            <h3 class="sector-card__title">Matériaux de construction</h3>
+            <p>Soutien aux cimenteries et matériaux innovants made in Senegal.</p>
+          </article>
+          <article class="sector-card">
+            <div class="sector-card__icon" aria-hidden="true">⚡</div>
+            <h3 class="sector-card__title">Énergie</h3>
+            <p>Énergie compétitive au service de l'industrialisation du pays.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    
+
+    <!-- ========================= INVESTIR ========================= -->
+    <section id="investir" class="section section--invest">
+      <div class="container invest">
+        <div class="invest__text">
+          <span class="section__eyebrow">Opportunités</span>
+          <h2 class="section__title">Investir au Sénégal</h2>
+          <p>Le Sénégal offre un cadre stable, des incitations attractives et un accès privilégié aux marchés ouest-africains. Avec une stratégie industrielle ambitieuse, le pays se positionne comme une destination de choix pour les investisseurs.</p>
+          <p>Bénéficiez d'un accompagnement personnalisé, de zones économiques spéciales et d'une fiscalité incitative pour développer votre projet industriel.</p>
+          <a href="#contact" class="btn btn--primary">Nous contacter</a>
+        </div>
+
+        <div class="stats-grid" role="list">
+          <div class="stat-card" role="listitem">
+            <span class="stat-card__value">18M</span>
+            <span class="stat-card__label">Habitants</span>
+          </div>
+          <div class="stat-card" role="listitem">
+            <span class="stat-card__value">#1</span>
+            <span class="stat-card__label">Hub régional</span>
+          </div>
+          <div class="stat-card" role="listitem">
+            <span class="stat-card__value">+6%</span>
+            <span class="stat-card__label">Croissance industrielle</span>
+          </div>
+          <div class="stat-card" role="listitem">
+            <span class="stat-card__value">75%</span>
+            <span class="stat-card__label">Main-d'œuvre jeune</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================= PARTENAIRES ========================= -->
+    <section class="section">
+      <div class="container">
+        <header class="section__header">
+          <span class="section__eyebrow">Ils nous accompagnent</span>
+          <h2 class="section__title">Partenaires</h2>
+        </header>
+
+        <div class="partners-grid">
+          <div class="partner"><img src="https://industrie.gouv.sn/sites/default/files/Sketch.png" alt=""></div>
+          <div class="partner"><img src="https://industrie.gouv.sn/sites/default/files/Illustrator.png" alt=""></div>
+          <div class="partner"><img src="https://industrie.gouv.sn/sites/default/files/Slack.png" alt=""></div>
+          <div class="partner"><img src="https://industrie.gouv.sn/sites/default/files/Invision.png" alt=""></div>
+          <div class="partner"><img src="https://industrie.gouv.sn/sites/default/files/Marvel.png" alt=""></div>
+          <div class="partner"><img src="https://industrie.gouv.sn/sites/default/files/Illustrator.png" alt=""></div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ========================= FOOTER ========================= -->
+  <footer id="contact" class="footer" role="contentinfo">
+    <div class="container footer__grid">
+
+      <div class="footer__col">
+        <div class="brand brand--footer">
+          <div class="brand__logo" aria-hidden="true">
+            <div><img src="https://st4.depositphotos.com/2610779/24691/v/450/depositphotos_246915024-stock-illustration-senegal-flag-round-bright-icon.jpg" alt=""></div>
+            <span class="brand__logo-bar brand__logo-bar--green"></span>
+            <span class="brand__logo-bar brand__logo-bar--yellow"></span>
+            <span class="brand__logo-bar brand__logo-bar--red"></span>
+          </div>
+          <div class="brand__text">
+            <span class="brand__title">Ministère de l'Industrie</span>
+            <span class="brand__title">Et De La Petite Et Moyenne Entreprise</span>
+            <span class="brand__subtitle">République du Sénégal</span>
+          </div>
+        </div>
+        <p class="footer__about">Le Ministère de l'Industrie pilote la politique industrielle nationale et œuvre à la transformation structurelle de l'économie sénégalaise.</p>
+      </div>
+
+      <div class="footer__col">
+        <h3 class="footer__title">Liens rapides</h3>
+        <ul class="footer__links">
+          <li><a href="#accueil">Accueil</a></li>
+          <li><a href="#ministere">Ministère</a></li>
+          <li><a href="#actualites">Actualités</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="footer__col">
+        <h3 class="footer__title">Coordonnées</h3>
+        <address class="footer__contact">
+          <p>Building Administratif<br />Avenue Léopold Sédar Senghor, Dakar</p>
+          <p>Tél : +221 33 889 00 00</p>
+          <p>Email : <a href="mailto:contact@industrie.gouv.sn">contact@industrie.gouv.sn</a></p>
+        </address>
+      </div>
+
+      <div class="footer__col">
+        <h3 class="footer__title">Suivez-nous</h3>
+        <ul class="socials" aria-label="Réseaux sociaux">
+          <li><a href="#" aria-label="Facebook" class="social">f</a></li>
+          <li><a href="#" aria-label="LinkedIn" class="social">in</a></li>
+          <li><a href="#" aria-label="X (Twitter)" class="social">X</a></li>
+          <li><a href="#" aria-label="YouTube" class="social">▶</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer__bottom">
+      <div class="container">
+        <p>© 2026 Ministère de l'Industrie - Tous droits réservés</p>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
